@@ -1,4 +1,4 @@
-package com.spring.boot.design.pattern.factory;
+package com.spring.boot.learning.lombok;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -9,12 +9,12 @@
 		<version>2.0.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.spring.boot.learning.mariam</groupId>
-	<artifactId>spring-boot-learning-mariam</artifactId>
+	<groupId>com.spring.boot.learning.lombok</groupId>
+	<artifactId>spring-boot-lombok</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>spring-boot-learning-mariam</name>
-	<description>Demo project for demonstrating how spring boot application works</description>
+	<name>spring-boot-lombok</name>
+	<description>Demo project for demonstrating how to use lombok in spring boot application.</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
