@@ -21,6 +21,11 @@ public class ExampleController {
 	public String Hello() {
 		return example.Hello();
 	}
+	
+	@GetMapping("/helloJenkins")
+	public String HelloJenkins() {
+		return "Hello Jenkins";
+	}
 
 	@PostMapping("/myInfo/{name}/{experiance}/{skills}")
 	public MyIntroductionDTO myInfo(@PathVariable String name, @PathVariable String experiance, @PathVariable String skills) {
