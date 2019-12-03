@@ -24,7 +24,7 @@ public class ExampleController {
 	
 	@GetMapping("/helloJenkins")
 	public String HelloJenkins() {
-		return "Hello Jenkins";
+		return "Hello Jenkin";
 	}
 
 	@PostMapping("/myInfo/{name}/{experiance}/{skills}")
