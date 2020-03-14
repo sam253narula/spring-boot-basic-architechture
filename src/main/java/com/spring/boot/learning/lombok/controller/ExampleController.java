@@ -11,9 +11,9 @@ import com.spring.boot.learning.lombok.dto.MyIntroductionDTO;
 import com.spring.boot.learning.lombok.service.ExampleService;
 
 @RestController
-@RequestMapping("/LombokDemo")
+@RequestMapping("/")
 public class ExampleController {
-
+	
 	@Autowired
 	ExampleService example;
 
